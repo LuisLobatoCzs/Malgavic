@@ -1,3 +1,17 @@
+<style>
+    body {
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f8fafc;
+    background-image: url(/img/bg.jpg);
+    background-attachment: fixed;
+}
+</style>
 @extends('layouts.app')
 @section('content')
 
@@ -5,21 +19,11 @@
     <div class="row justify-content-center d1">    <!--Banner-->
         <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="{{URL::asset('/images/banner/b1.png')}}">
+                
+                <div class="carousel-item-active">
+                    <img class="d-block w-100" src="{{URL::asset('/img/banner/b3.png')}}">
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="{{URL::asset('/images/banner/b2.png')}}">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="{{URL::asset('/images/banner/b3.png')}}">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="{{URL::asset('/images/banner/b4.png')}}">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="{{URL::asset('/images/banner/b5.png')}}">
-                </div>
+               
             </div>
             <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -31,63 +35,9 @@
             </a>  
         </div>
     </div>
-    <div class="row justify-content-center d5">    <!--Catálogo-->
-        <div class="col-6 col-xl-4">
-            <br><br><br>
-            <a href="/catalogues">
-            <div class="row justify-content-center">
-                <img src="{{URL::asset('/images/boton2.png')}}" alt="catalog" height="100%" width="100%">
-            </div>
-            </a>
-            <br><br><br>
-        </div>
-    </div>
-</div>
-<div class="col-12 menor">
-    <div class="row justify-content-center d1">    <!--Banner-->
-        <div id="carousel2" class="carousel slide" data-ride="carousel" data-interval="3000">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="{{URL::asset('/images/banner/bm1.png')}}" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="{{URL::asset('/images/banner/bm2.png')}}" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="{{URL::asset('/images/banner/bm3.png')}}" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="{{URL::asset('/images/banner/bm4.png')}}" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="{{URL::asset('/images/banner/bm5.png')}}" alt="First slide">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-    <div class="row justify-content-center d5">    <!--Catálogo-->
-        <div class="col-8 col-xl-4">
-            <br><br><br>
-            <a href="/catalogues">
-                <div class="row justify-content-center">
-                    <img src="{{URL::asset('/images/boton2.png')}}" alt="catalog" height="100%" width="100%">
-                </div>
-            </a>
-            <br><br><br>
-        </div>
-    </div>
 </div>
 
-
-<div class="col-12 d2" id="Productos">   <!--Destacados-->
+<div class="col-12 bg-index" id="Productos">   <!--Destacados-->
     <div>
         <br>
         <div class="title mayor col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -97,9 +47,9 @@
             Productos destacados.
         </div>
         <br><br>
-        <div class="row text-center">
+        <div class="row text-center ">
             <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3" > 
-                <img alt="destacado" src="{{URL::asset('/images/destacados/d1.jpg')}}" width="90%">
+                <img alt="destacado" src="{{URL::asset('/img/destacados/d1.jpg')}}" width="90%" class="redondeado">
                 <h3 class="text-center name mayor">
                     Rueda tipo Super
                 </h3>
@@ -108,7 +58,7 @@
                 </h3>
             </figure>
             <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3" > 
-                <img alt="destacado" src="{{URL::asset('/images/destacados/d2.jpg')}}" width="90%">
+                <img alt="destacado" src="{{URL::asset('/img/destacados/d2.jpg')}}" width="90%" class="redondeado">
                 <h3 class="text-center name mayor">
                     Rodaja Poliuretano Carga Pesada
                 </h3>
@@ -117,7 +67,7 @@
                 </h3>
             </figure>
             <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3" > 
-                <img alt="destacado" src="{{URL::asset('/images/destacados/d3.jpg')}}" width="90%">
+                <img alt="destacado" src="{{URL::asset('/img/destacados/d3.jpg')}}" width="90%" class="redondeado">
                 <h3 class="text-center name mayor">
                     Puntos de Fijación Cristal
                 </h3>
@@ -126,7 +76,7 @@
                 </h3>
             </figure>
             <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3" > 
-                <img alt="destacado" src="{{URL::asset('/images/destacados/d4.jpg')}}" width="90%">
+                <img alt="destacado" src="{{URL::asset('/img/destacados/d4.jpg')}}" width="90%" class="redondeado">
                 <h3 class="text-center name mayor">
                     Barandal Inoxidable 
                 </h3>
@@ -135,7 +85,7 @@
                 </h3>
             </figure>
             <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 mayor" > 
-                <img alt="destacado" src="{{URL::asset('/images/destacados/d5.jpg')}}" width="90%">
+                <img alt="destacado" src="{{URL::asset('/img/destacados/d5.jpg')}}" width="90%" class="redondeado">
                 <h3 class="text-center name mayor">
                     Piña forja Española
                 </h3>
@@ -144,7 +94,7 @@
                 </h3>
             </figure>
             <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 mayor" > 
-                <img alt="destacado" src="{{URL::asset('/images/destacados/d6.jpg')}}" width="90%">
+                <img alt="destacado" src="{{URL::asset('/img/destacados/d6.jpg')}}" width="90%" class="redondeado">
                 <h3 class="text-center name mayor">
                     Berrendo EPP
                 </h3>
@@ -153,7 +103,7 @@
                 </h3>
             </figure>
             <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 mayor" > 
-                <img alt="destacado" src="{{URL::asset('/images/destacados/d7.jpg')}}" width="90%">
+                <img alt="destacado" src="{{URL::asset('/img/destacados/d7.jpg')}}" width="90%" class="redondeado">
                 <h3 class="text-center name mayor">
                     Stabilus Integra
                 </h3>
@@ -162,7 +112,7 @@
                 </h3>
             </figure>
             <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 mayor" > 
-                <img alt="destacado" src="{{URL::asset('/images/destacados/d8.jpg')}}" width="90%">
+                <img alt="destacado" src="{{URL::asset('/img/destacados/d8.jpg')}}" width="90%" class="redondeado">
                 <h3 class="text-center name mayor">
                     Mecanismos Gira
                 </h3>
@@ -174,7 +124,14 @@
     </div>
     <br><br>
 </div>
-<div class="col-12 d4" id="Contacto">     <!--Contacto-->
+
+<div class="row bg-celeste-rgba">    <!--Catálogo-->
+    <div class="col-6 col-xl-4">
+        <br><br><br><br><br><br><br><br><br>
+    </div>
+</div>
+
+<div class="col-12 bg-index" id="Contacto">     <!--Contacto-->
     <div class="container">
         <div class="row">
             <div class="col-5 mayor">
@@ -182,7 +139,7 @@
                 <br>
                 <br>
                 <br>
-                <img src="{{URL::asset('/images/ball-bearings.png')}}" alt="Picture" width="100%"> 
+                <img src="{{URL::asset('/img/ball-bearings.png')}}" alt="Picture" width="100%"> 
             </div>
 
             <div class="col-7 text-center mayor">
@@ -289,7 +246,7 @@
         <br>
     </div>
 </div>
-<div class="d6">
+<div class="bg-rojo-rgba">
     <br><br><br><br><br>
 </div>
 

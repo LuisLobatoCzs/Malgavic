@@ -36,14 +36,18 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
 </head>
-<body>
+<body class="">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-dark bg-marino shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    <object class="img-fluid" data="{{ asset('img/logos/malgavic.svg') }}" type="image/svg+xml">
-                    </object>
-                    {{ config('app.name') }}
+                <a class="col-2 link-blanco" href="{{ url('/') }}">
+                    <div class="row centrado-vertical">
+                        <object class="col-8" data="{{ asset('img/logos/malgavic.svg') }}" type="image/svg+xml">
+                        </object>
+                        <div class="col-4 titulo3">
+                            <b>MALGAVIC</b>
+                        </div>
+                    </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -144,10 +148,12 @@
                         <a target="blank" href="https://api.whatsapp.com/send?phone=525578948658&text=Hola%2C%20me%20gustaría%20recibir%20información">
                             <i class="fab fa-whatsapp-square col-1 icon"></i>
                         </a>
+
+                        <i class="fas fa-virus"></i>
                     </div>
                     <br><br><br>
                 </div>
-                <div class="row df2 justify-content-center">
+                <div class="row bg-celeste justify-content-center">
                     Comercializadora Industrial Mexicana S.A. de C.V.
                 </div>
             </div>
