@@ -1,0 +1,45 @@
+@media (min-width:768px){
+    .menor{
+            display:none;
+    }
+    .mayor{
+            display:block; 
+    }
+}
+@media (max-width:768px){
+    .menor{
+            display:block;
+    }
+    .mayor{
+            display:none;
+    }
+}
+
+.bg-marino{
+    background-color: #22284f;
+}
+.bg-celeste{
+    background-color: #00adcb;
+}
+.bg-rojo{
+    background-color: #e61f4d;
+}
+.bg-gris{
+    background-color: #7e8384;
+}
+
+
+.marino{
+    color: #22284f;
+}
+.celeste{
+    color: #00adcb;
+}
+.rojo{
+    color: #e61f4d;
+}
+.gris{
+    color: #7e8384;
+}
+
+
