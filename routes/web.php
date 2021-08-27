@@ -22,6 +22,18 @@ Route::get('/preguntasFrecuentes', function () {
     return view('faq');
 });
 
+Route::get('/politicasDePrivacidad', function () {
+    return view('privacy');
+});
+
+Route::get('/catalogos', function () {
+    return view('catalogues');
+});
+
+Route::get('/nosotros', function () {
+    return view('about');
+});
+
 
 Auth::routes();
 

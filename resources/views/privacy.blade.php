@@ -63,13 +63,13 @@
         <h2>Aviso de Privacidad</h2>
         <br>
         <div class="txt">
-            Entendemos que es importante para tí como nuestro cliente entender de que forma utilizamos la información que recabamos dentro de nuestro sitio web. A continuación se detallan conceptos bajo los cuales se recaba información a nombre de COMINMEX S. de R.L de C.V. 
+            Entendemos que es importante para tí como nuestro cliente entender de que forma utilizamos la información que recabamos dentro de nuestro sitio web. A continuación se detallan conceptos bajo los cuales se recaba información a nombre de MALGAVIC S. de R.L de C.V. 
         </div>
         <br><br><br>
         <h3>Datos Personales recabados</h3>
         <br>
         <div class="txt">
-            COMINMEX® puede recopilar datos personales como nombre(s) y apellidos, correo electrónico, domicilio fiscal, domicilio personal, RFC, número de teléfono celular y/o local. Estos datos personales son proporcionados voluntariamente al decidir solicitar los servicios que nuestra empresa ofrezca, así como la solicitud de cotizaciones o contacto con nosotros.
+            MALGAVIC® puede recopilar datos personales como nombre(s) y apellidos, correo electrónico, domicilio fiscal, domicilio personal, RFC, número de teléfono celular y/o local. Estos datos personales son proporcionados voluntariamente al decidir solicitar los servicios que nuestra empresa ofrezca, así como la solicitud de cotizaciones o contacto con nosotros.
         </div>
         <br><br><br>
         <h3>Usos y finalidades de sus datos personales</h3>
@@ -81,13 +81,13 @@
         <h3>Transmisión y transferencia de Datos Personales</h3>
         <br>
         <div class="txt">
-            COMINMEX® no divulgará o compartirá sus datos personales con terceros, exceptuando únicamente entidades gubernamentales en caso que sean requeridos por estas.
+            MALGAVIC® no divulgará o compartirá sus datos personales con terceros, exceptuando únicamente entidades gubernamentales en caso que sean requeridos por estas.
         </div>
         <br><br><br>
         <h3>Cambios al Aviso de Privacidad</h3>
         <br>
         <div class="txt">
-            COMINMEX®  se reserva el derecho de modificar o enmendar, total o parcialmente, el presente Aviso de Privacidad y será mostrado por este medio.
+            MALGAVIC®  se reserva el derecho de modificar o enmendar, total o parcialmente, el presente Aviso de Privacidad y será mostrado por este medio.
         </div>
         <br><br><br>
         <h3>Consentimiento</h3>
@@ -97,7 +97,7 @@
             <ul>
                 <li>Las condiciones contenidas en el presente Aviso de Privacidad</li>
                 <li>Estar de acuerdo en que la información proporcionada por usted pueda almacenarse, usarse y, en general, tratarse para los fines que se señalan</li>
-                <li>Otorga a COMINMEX®  autorización para obtener, compilar, almacenar, compartir, comunicar, transmitir y usar tal información de cualquier manera o forma, de conformidad con las condiciones establecidas en el presente y las leyes aplicables.</li>
+                <li>Otorga a MALGAVIC®  autorización para obtener, compilar, almacenar, compartir, comunicar, transmitir y usar tal información de cualquier manera o forma, de conformidad con las condiciones establecidas en el presente y las leyes aplicables.</li>
             </ul>
         </div>
         <br><br><br>

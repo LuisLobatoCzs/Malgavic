@@ -63,25 +63,26 @@
         <h3>¿Quiénes somos?</h3>
         <br>
         <div class="txt">
-            Somos una empresa responsable¸ comprometidos en brindar el mejor servicio y producto siempre con los mayores estándares de calidad y con un enfoque en la mejora continua en búsqueda de la excelencia, apegados a la comunicación, respeto y honestidad con clientes externos e internos. 
+        Somos una empresa responsable¸ comprometidos en brindar el mejor servicio y producto siempre con los mayores estándares de calidad y con un enfoque en la mejora continua en búsqueda de la excelencia, apegados a la comunicación, respeto y honestidad con clientes externos e internos.
+        Permítanos colaborar en sus proyectos, ¡estaremos encantados! 
         </div>
         <br><br><br>
         <h3>Misión</h3>
         <br>
         <div class="txt">
-            Ser la mejor opción en proveeduría para nuestros clientes mediante el asesoramiento y correcta selección de nuestros productos, con enfoque a las necesidades puntuales; ser un socio estratégico. 
+        Ser la mejor opción en proveeduría para nuestros clientes mediante el asesoramiento y correcta selección de nuestros productos, con enfoque a las necesidades puntuales; ser un socio estratégico. 
         </div>
         <br><br><br>
         <h3>Visión</h3>
         <br>
         <div class="txt">
-            Ser expertos en la comercialización y abastecimiento de productos para la Industria, ofreciendo a nuestros clientes calidad en nuestros productos; lograr afianzamiento en el mercado mediante el cumplimiento de estándares de servicio siendo respaldado por nuestra misión, valores y marcas.
+        Ser expertos en la comercialización y abastecimiento de productos para la Industria, ofreciendo a nuestros clientes calidad en nuestros productos; lograr afianzamiento en el mercado mediante el cumplimiento de estándares de servicio siendo respaldado por nuestra misión, valores y marcas.
         </div>
         <br><br><br>
         <h3>Valores</h3>
         <br>
         <div class="txt">
-            Responsabilidad, compromiso, calidad, excelencia, comunicación, respeto y honestidad. 
+        Responsabilidad, compromiso, calidad, excelencia, comunicación, respeto y honestidad.
         </div>
         <br><br><br>
     </div>
