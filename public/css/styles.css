@@ -15,6 +15,15 @@
     }
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+.icon{
+    font-size:32px;
+    color: #fff;
+}
+
 .bg-marino{
     background-color: #22284f;
 }

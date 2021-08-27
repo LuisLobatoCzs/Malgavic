@@ -1,19 +1,6 @@
 @extends('layouts.app')
 @section('content')
 
-<?php
-    if(isset($alerta)){
-        if($alerta == 1){
-            echo '
-                <script>
-                    toastr["success"]("Pronto nos pondremos en contacto contigo.", "Mensaje enviado!!",{"progressBar": true, "closeButton": true, "positionClass": "toast-bottom-right", "showDuration": "1000",}); 
-                </script>
-            ';
-            $alerta = 0;
-        }
-    }
-?>
-
 <div class="col-12 mayor">
     <div class="row justify-content-center d1">    <!--Banner-->
         <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
