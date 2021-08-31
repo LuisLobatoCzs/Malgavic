@@ -39,51 +39,58 @@
 
 <div class="col-12 bg-index" id="Productos">   <!--Destacados-->
     <div>
-        <br>
-        <div class="title mayor col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            Productos destacados. 
-        </div>
-        <div class="title2 menor col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            Productos destacados.
-        </div>
-        <br><br>
+        <div class="row justify-content-center p-5">
+            <span style="font-size: calc(1em + 3vw)">
+                Productos destacados. 
+            </span>
+        </div>        
+        
         <div class="row text-center ">
-            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3" > 
-                <img alt="destacado" src="{{URL::asset('/img/destacados/d1.jpg')}}" width="90%" class="redondeado">
-                <h3 class="text-center name mayor">
+
+            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 pl-4 pr-4 pb-3 destacado">
+                <div class="redondeado m-2" id="cut">
+                    <img alt="destacado" src="{{URL::asset('/img/destacados/d1.jpg')}}" class="img-fluid zoom">
+                </div>
+                <br>
+                <span style="font-size: calc(1em + 1vw)">
                     Rueda tipo Super
-                </h3>
-                <h3 class="text-center name2 menor">
-                    Rueda tipo Super
-                </h3>
+                </span>
             </figure>
-            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3" > 
-                <img alt="destacado" src="{{URL::asset('/img/destacados/d2.jpg')}}" width="90%" class="redondeado">
-                <h3 class="text-center name mayor">
+
+            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 pl-4 pr-4 pb-3 destacado">
+                <div class="redondeado m-2" id="cut">
+                    <img alt="destacado" src="{{URL::asset('/img/destacados/d2.jpg')}}" class="img-fluid zoom">
+                </div>
+                <br>
+                <span style="font-size: calc(1em + 1vw)">
                     Rodaja Poliuretano Carga Pesada
-                </h3>
-                <h3 class="text-center name2 menor">
-                    Rodaja Poliuretano Carga Pesada
-                </h3>
+                </span>
             </figure>
-            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3" > 
-                <img alt="destacado" src="{{URL::asset('/img/destacados/d3.jpg')}}" width="90%" class="redondeado">
-                <h3 class="text-center name mayor">
+
+            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 pl-4 pr-4 pb-3 destacado">
+                <div class="redondeado m-2" id="cut">
+                    <img alt="destacado" src="{{URL::asset('/img/destacados/d3.jpg')}}" class="img-fluid zoom">
+                </div>
+                <br>
+                <span style="font-size: calc(1em + 1vw)">
                     Puntos de Fijación Cristal
-                </h3>
-                <h3 class="text-center name2 menor">
-                    Puntos de Fijación Cristal
-                </h3>
+                </span>
             </figure>
-            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3" > 
-                <img alt="destacado" src="{{URL::asset('/img/destacados/d4.jpg')}}" width="90%" class="redondeado">
-                <h3 class="text-center name mayor">
-                    Barandal Inoxidable 
-                </h3>
-                <h3 class="text-center name2 menor">
+
+            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 pl-4 pr-4 pb-3 destacado">
+                <div class="redondeado m-2" id="cut">
+                    <img alt="destacado" src="{{URL::asset('/img/destacados/d4.jpg')}}" class="img-fluid zoom">
+                </div>
+                <br>
+                <span style="font-size: calc(1em + 1vw)">
                     Barandal Inoxidable
-                </h3>
+                </span>
             </figure>
+            
+
+
+            
+            
             <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 mayor" > 
                 <img alt="destacado" src="{{URL::asset('/img/destacados/d5.jpg')}}" width="90%" class="redondeado">
                 <h3 class="text-center name mayor">
@@ -125,9 +132,14 @@
     <br><br>
 </div>
 
-<div class="row bg-celeste-rgba">    <!--Catálogo-->
-    <div class="col-6 col-xl-4">
-        <br><br><br><br><br><br><br><br><br>
+<div class="row bg-celeste-rgba" >
+    <div class="col-12">
+        <img src="{{URL::asset('/img/waveUP.svg')}}" width="100%">
+    </div>
+</div>
+<div class="row bg-celeste-rgba" >
+    <div class="col-12">
+        <img src="{{URL::asset('/img/waveDOWN.svg')}}" width="100%">
     </div>
 </div>
 
@@ -246,7 +258,7 @@
         <br>
     </div>
 </div>
-<div class="bg-rojo-rgba">
+<div class="bg-celeste-rgba">
     <br><br><br><br><br>
 </div>
 
