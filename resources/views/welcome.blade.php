@@ -1,35 +1,40 @@
 <style>
     body {
-    margin: 0;
-    font-family: "Nunito", sans-serif;
-    font-size: 0.9rem;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #212529;
-    text-align: left;
-    background-color: #f8fafc;
-    background-image: url(/img/bg.jpg);
-    background-attachment: fixed;
-}
+        margin: 0;
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.6;
+        color: #212529;
+        text-align: left;
+        background-color: #f8fafc;
+        background-image: url(/img/bg.jpg);
+        background-attachment: fixed;
+    }
 </style>
 @extends('layouts.app')
 @section('content')
 
-<div class="col-12 mayor">
+<div class="col-12">
     <div class="row justify-content-center d1">    <!--Banner-->
         <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
-            <div class="carousel-inner">
+            <div class="carousel-inner blackout">
                 
                 <div class="carousel-item-active">
-                    <img class="d-block w-100" src="{{URL::asset('/img/banner/b3.png')}}">
+                    <img class="img-fluid" src="{{URL::asset('/img/banner/b3.jpg')}}">
+                    <!-- Cuadro de texto flotante-->
+                    <div class="col-md-8 col-sm-10 col-11 blanco sobreponer centrado-absoluto centrar centrado-vertical">
+                        <div style="font-size: calc(1em + 3vw)">
+                            <b> Añade estilo y seguridad a tus proyectos con los mejores diseños. </b>
+                        </div>
+                    </div>
                 </div>
                
             </div>
-            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <a class="carousel-control-prev sobreponer" href="#carousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <a class="carousel-control-next sobreponer" href="#carousel" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>  
@@ -37,7 +42,8 @@
     </div>
 </div>
 
-<div class="col-12 bg-index" id="Productos">   <!--Destacados-->
+<!--Destacados-->
+<div class="col-12 bg-index" id="Productos">
     <div>
         <div class="row justify-content-center p-5">
             <span style="font-size: calc(1em + 3vw)">
@@ -46,7 +52,6 @@
         </div>        
         
         <div class="row text-center ">
-
             <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 pl-4 pr-4 pb-3 destacado">
                 <div class="redondeado m-2" id="cut">
                     <img alt="destacado" src="{{URL::asset('/img/destacados/d1.jpg')}}" class="img-fluid zoom">
@@ -56,7 +61,6 @@
                     Rueda tipo Super
                 </span>
             </figure>
-
             <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 pl-4 pr-4 pb-3 destacado">
                 <div class="redondeado m-2" id="cut">
                     <img alt="destacado" src="{{URL::asset('/img/destacados/d2.jpg')}}" class="img-fluid zoom">
@@ -66,7 +70,6 @@
                     Rodaja Poliuretano Carga Pesada
                 </span>
             </figure>
-
             <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 pl-4 pr-4 pb-3 destacado">
                 <div class="redondeado m-2" id="cut">
                     <img alt="destacado" src="{{URL::asset('/img/destacados/d3.jpg')}}" class="img-fluid zoom">
@@ -76,7 +79,6 @@
                     Puntos de Fijación Cristal
                 </span>
             </figure>
-
             <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 pl-4 pr-4 pb-3 destacado">
                 <div class="redondeado m-2" id="cut">
                     <img alt="destacado" src="{{URL::asset('/img/destacados/d4.jpg')}}" class="img-fluid zoom">
@@ -86,46 +88,41 @@
                     Barandal Inoxidable
                 </span>
             </figure>
-            
-
-
-            
-            
-            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 mayor" > 
-                <img alt="destacado" src="{{URL::asset('/img/destacados/d5.jpg')}}" width="90%" class="redondeado">
-                <h3 class="text-center name mayor">
+            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 pl-4 pr-4 pb-3 destacado not_priority">
+                <div class="redondeado m-2" id="cut">
+                    <img alt="destacado" src="{{URL::asset('/img/destacados/d5.jpg')}}" class="img-fluid zoom">
+                </div>
+                <br>
+                <span style="font-size: calc(1em + 1vw)">
                     Piña forja Española
-                </h3>
-                <h3 class="text-center name2 menor">
-                    Piña forja Española
-                </h3>
+                </span>
             </figure>
-            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 mayor" > 
-                <img alt="destacado" src="{{URL::asset('/img/destacados/d6.jpg')}}" width="90%" class="redondeado">
-                <h3 class="text-center name mayor">
+            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 pl-4 pr-4 pb-3 destacado not_priority">
+                <div class="redondeado m-2" id="cut">
+                    <img alt="destacado" src="{{URL::asset('/img/destacados/d6.jpg')}}" class="img-fluid zoom">
+                </div>
+                <br>
+                <span style="font-size: calc(1em + 1vw)">
                     Berrendo EPP
-                </h3>
-                <h3 class="text-center name2 menor">
-                    Berrendo EPP
-                </h3>
+                </span>
             </figure>
-            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 mayor" > 
-                <img alt="destacado" src="{{URL::asset('/img/destacados/d7.jpg')}}" width="90%" class="redondeado">
-                <h3 class="text-center name mayor">
+            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 pl-4 pr-4 pb-3 destacado not_priority">
+                <div class="redondeado m-2" id="cut">
+                    <img alt="destacado" src="{{URL::asset('/img/destacados/d7.jpg')}}" class="img-fluid zoom">
+                </div>
+                <br>
+                <span style="font-size: calc(1em + 1vw)">
                     Stabilus Integra
-                </h3>
-                <h3 class="text-center name2 menor">
-                    Stabilus Integra
-                </h3>
+                </span>
             </figure>
-            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 mayor" > 
-                <img alt="destacado" src="{{URL::asset('/img/destacados/d8.jpg')}}" width="90%" class="redondeado">
-                <h3 class="text-center name mayor">
+            <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 pl-4 pr-4 pb-3 destacado not_priority">
+                <div class="redondeado m-2" id="cut">
+                    <img alt="destacado" src="{{URL::asset('/img/destacados/d8.jpg')}}" class="img-fluid zoom">
+                </div>
+                <br>
+                <span style="font-size: calc(1em + 1vw)">
                     Mecanismos Gira
-                </h3>
-                <h3 class="text-center name2 menor">
-                    Mecanismos Gira
-                </h3>
+                </span>
             </figure>
         </div>
     </div>

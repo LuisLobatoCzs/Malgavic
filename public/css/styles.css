@@ -1,3 +1,7 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 @media (min-width:768px){
     .menor{
             display:none;
@@ -33,6 +37,7 @@
 .centrado-vertical{
     border: none;
     align-items: center;
+    display: flex;
 }
 .centrado-total {
     border: none;
@@ -55,7 +60,6 @@
     font-size:32px;
     color: #fff;
 }
-
 
 .bg-index{
     background-color: #f3f3f3;
@@ -82,8 +86,54 @@
     background-color: rgba(230, 31, 77, 0.7);
 }
 .bg-gris-rgba{
-    background-color: rgba(126, 131, 132, 0.3);
+    background-color: rgba(126, 131, 132, 0.7);
 }
+
+
+
+.blackout{
+    position: relative;
+}
+
+.blackout::before{
+    content: '';
+    background-color: rgba(0,0,0,.5);
+    z-index: 3;
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;  
+}
+
+.sobreponer{
+    position:absolute;
+    z-index: 10;
+}
+.centrado-absoluto{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.flotante{
+    position: fixed;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 2vw;
+    width: 2vw;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 100%, 100%;
+    border-radius: 0;
+    border: 0px solid black;
+    filter: invert(0%) opacity(100%);
+    fill:rgba(34, 40, 79, 0.7);
+}
+
 
 .df1 {
     background: #292f32;
@@ -109,6 +159,9 @@
 }
 .gris{
     color: #7e8384;
+}
+.blanco{
+    color: #fff;
 }
 
 
