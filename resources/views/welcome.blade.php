@@ -15,10 +15,12 @@
 @section('content')
 
 <div class="col-12">
-    <div class="row justify-content-center d1">    <!--Banner-->
+    <div class="row justify-content-center d1">    
+        <!-- Slider -->
         <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
             <div class="carousel-inner blackout">
                 
+                <!-- Diapositivas-->
                 <div class="carousel-item-active">
                     <img class="img-fluid" src="{{URL::asset('/img/banner/b3.jpg')}}">
                     <!-- Cuadro de texto flotante-->
@@ -45,12 +47,13 @@
 <!--Destacados-->
 <div class="col-12 bg-index" id="Productos">
     <div>
+        <!-- Título -->
         <div class="row justify-content-center p-5">
             <span style="font-size: calc(1em + 3vw)">
                 Productos destacados. 
             </span>
         </div>        
-        
+        <!-- Productos -->
         <div class="row text-center ">
             <figure id="frame" class="col-6 col-md-6 col-lg-4 col-xl-3 pl-4 pr-4 pb-3 destacado">
                 <div class="redondeado m-2" id="cut">
@@ -134,7 +137,13 @@
         <img src="{{URL::asset('/img/waveUP.svg')}}" width="100%">
     </div>
 </div>
-<div class="row bg-celeste-rgba" >
+<div class="row bg-celeste-rgba justify-content-center" >
+     <!-- Cuadro de texto flotante-->
+     <div class="col-md-8 col-sm-10 col-11 blanco sobreponer centrar centrado-total">
+        <div style="font-size: calc(1em + 3vw); margin:auto;">
+            <b> El inventario más completo para todo tipo de proyectos. </b>
+        </div>
+    </div>
     <div class="col-12">
         <img src="{{URL::asset('/img/waveDOWN.svg')}}" width="100%">
     </div>
