@@ -54,6 +54,10 @@ body{
     text-align: right;
     justify-content: right;
 }
+.a-la-izquierda {
+    text-align: left;
+    justify-content: left;
+}
 
 
 .icon{
@@ -64,6 +68,15 @@ body{
 .bg-index{
     background-color: #f3f3f3;
 }
+.bg-footer {
+    background: #292f32;
+    color: #fff;
+}
+.bg-footer2 {
+    background: #434547;
+    color: #fff;
+}
+
 .bg-marino{
     background-color: #22284f;
 }
@@ -111,6 +124,11 @@ body{
     position:absolute;
     z-index: 10;
 }
+.sobreponer2{
+    position:absolute;
+    z-index: 100;
+}
+
 .centrado-absoluto{
     top: 0;
     left: 0;
@@ -134,19 +152,6 @@ body{
     fill:rgba(34, 40, 79, 0.7);
 }
 
-
-.df1 {
-    background: #292f32;
-    color: #fff;
-}
-.df2 {
-    background: #434547;
-    color: #fff;
-}
-.df3 {
-    background: #ff9000;
-    color: #fff;
-}
 
 .marino{
     color: #22284f;
@@ -220,4 +225,52 @@ body{
 
 .color_actual{
     fill: currentColor;
+}
+
+.burbuja{
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    border-width: 3px;
+    border-style:inherit;
+    font-size: 4em;
+    width: 1.3em;
+    height: 1.3em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.burbuja:hover{
+    text-decoration: none;
+}
+.whatsapp{
+    color: #00e676;
+    right: 5vh; 
+    bottom: 3.3vh;
+}
+.whatsapp:hover{
+    color: #fff;
+    background-color: rgba(0, 230, 118, 0.7);
+}
+.facebook{
+    color: #0872fc;
+}
+.facebook:hover{
+    color: #fff;
+    background-color: rgba(24, 119, 242, 0.7);
+}
+.instagram{
+    color: #d6249f;
+}
+.instagram:hover{
+    color: #fff;
+    background: #f197d5;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.linkedin{
+    color: #097ff5;
+}
+.linkedin:hover{
+    color: #0a66c2;
+    background-color: rgba(255, 255, 255, 1);
 }

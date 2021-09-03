@@ -15,6 +15,13 @@
 @section('content')
 
 <div class="col-12">
+
+    <div class="row">
+        <a class="sobreponer2 burbuja flotante whatsapp" target="blank" href="https://api.whatsapp.com/send?phone={{env('MALGAVIC_PHONE_COUNTRY')}}{{env('MALGAVIC_PHONE')}}&text=Hola%2C%20me%20gustaría%20solicitar%20información">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
     <div class="row justify-content-center d1">    
         <!-- Slider -->
         <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
@@ -151,16 +158,9 @@
 
 <div class="col-12 bg-index" id="Contacto">     <!--Contacto-->
     <div class="container">
-        <div class="row">
-            <div class="col-5 mayor">
-                <br>
-                <br>
-                <br>
-                <br>
-                <img src="{{URL::asset('/img/ball-bearings.png')}}" alt="Picture" width="100%"> 
-            </div>
-
-            <div class="col-7 text-center mayor">
+        <div class="row pt-5 pb-5 centrado-vertical">
+            <!-- Formulario -->
+            <div class="col-md-7 col-11 text-center">
                 <div class="title"><br>Contáctanos<br><br></div>
                 <form action="/contactar" method="POST">
                     {{ csrf_field() }}
@@ -203,68 +203,20 @@
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-4"></div>
-                                <button type="submit" class="btn btn-success col-4">Enviar</button>
+                                <button type="submit" class="btn bg-rojo blanco col-4">Enviar</button>
                             </div>
                         </div>
                     </fieldset>
                 </form>     
             </div>
-
-            <div class="col-11 text-center menor">
-                <div class="title"><br>Contáctanos<br><br></div>
-                <form action="/contactar" method="POST">
-                    {{ csrf_field() }}
-                    <fieldset>
-                        <div class="form-group">
-                            <div class="row">
-                                <input type="text" class="form-control col-8" name="fecha" hidden required value="<?php echo date("Y-m-d H:i:s"); ?>">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="row">
-                                <label for="nombre" class="col-4 control-label title3">Nombre:</label>
-                                <input type="text" class="form-control col-8" name="nombre" placeholder="Nombre completo" required value="">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="row">
-                                <label for="telefono" class="col-4 control-label title3">Teléfono:</label>
-                                <input type="text" class="form-control col-8" name="telefono" placeholder="Número a 10 dígitos" required value="">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="row">
-                                <label for="correo" class="col-4 control-label title3">E-Mail:</label>
-                                <input type="text" class="form-control col-8" name="correo" placeholder="Ej. ejemplo@correo.com" required value="">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="row">
-                                <label for="cp" class="col-4 control-label title3">Código postal:</label>
-                                <input type="number" class="form-control col-8" name="cp" placeholder="A 5 dígitos" required value="">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="row">
-                                <label for="mensaje" class="col-4 control-label title3">Mensaje:</label>
-                                <textarea class="form-control col-8" rows="6" name="mensaje" required placeholder="Dejanos tu mensaje aquí"></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="row">
-                                <div class="col-4"></div>
-                                <button type="submit" class="btn btn-success col-4">Enviar</button>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
+            <!-- Imagen -->
+            <div class="col-5 centrar not_priority">
+                <img src="{{URL::asset('/img/rodaja.gif')}}" alt="Picture" width="50%"> 
             </div>
         </div>
-        <br>
-        <br>
     </div>
 </div>
-<div class="bg-celeste-rgba">
+<div class="bg-gris-rgba">
     <br><br><br><br><br>
 </div>
 
