@@ -34,6 +34,13 @@
                     <div class="col-md-8 col-sm-10 col-11 blanco sobreponer centrado-absoluto centrar centrado-vertical">
                         <div style="font-size: calc(1em + 3vw)">
                             <b> Añade estilo y seguridad a tus proyectos con los mejores diseños. </b>
+                            
+                            <br>
+                            <a href="/catalogos">
+                                <button class="btn btn-rojo btn-ovalado titulo9"> 
+                                    &nbsp; <i class="fas fa-book"></i> Ver catálogos &nbsp; 
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -144,11 +151,17 @@
         <img src="{{URL::asset('/img/waveUP.svg')}}" width="100%">
     </div>
 </div>
-<div class="row bg-celeste-rgba justify-content-center" >
+<div class="row bg-celeste-rgba justify-content-center" ng-init="typewriter()">
      <!-- Cuadro de texto flotante-->
      <div class="col-md-8 col-sm-10 col-11 blanco sobreponer centrar centrado-total">
-        <div style="font-size: calc(1em + 3vw); margin:auto;">
-            <b> El inventario más completo para todo tipo de proyectos. </b>
+        <div style="font-size: calc(1em + 2.5vw); margin:auto;">
+            El inventario más completo para todo tipo de <b> <span class="typed"></span> </b>
+            <br>
+            <a href="/catalogos">
+                <button class="btn btn-rojo btn-ovalado titulo8"> 
+                    &nbsp; <i class="fas fa-book"></i> Ver catálogos &nbsp; 
+                </button>
+            </a>
         </div>
     </div>
     <div class="col-12">
@@ -158,10 +171,15 @@
 
 <div class="col-12 bg-index" id="Contacto">     <!--Contacto-->
     <div class="container">
+        <div class="row">
+            <span style="font-size: calc(1em + 2vw)">
+                <br>
+                Contáctanos. 
+            </span>
+        </div>
         <div class="row pt-5 pb-5 centrado-vertical">
             <!-- Formulario -->
-            <div class="col-md-7 col-11 text-center">
-                <div class="title"><br>Contáctanos<br><br></div>
+            <div class="col-md-7 col-11 text-center pb-5">
                 <form action="/contactar" method="POST">
                     {{ csrf_field() }}
                     <fieldset>
@@ -203,7 +221,7 @@
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-4"></div>
-                                <button type="submit" class="btn bg-rojo blanco col-4">Enviar</button>
+                                <button type="submit" class="btn btn-rojo btn-ovalado col-md-4 col-sm-6 col-8">Enviar</button>
                             </div>
                         </div>
                     </fieldset>
@@ -211,7 +229,7 @@
             </div>
             <!-- Imagen -->
             <div class="col-5 centrar not_priority">
-                <img src="{{URL::asset('/img/rodaja.gif')}}" alt="Picture" width="50%"> 
+                <object class="img-fluid" data="{{ asset('img/undraw_message_sent_1030.svg') }}" type="image/svg+xml"></object> 
             </div>
         </div>
     </div>

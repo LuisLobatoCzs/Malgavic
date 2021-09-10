@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}"  ng-app="home">
     <!-- 
         Equipo de desarrollo: 
         - Mariana Gómez Islas
@@ -36,17 +36,27 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+
+    <!-- AngularJS -->
+    <script src="{{ asset('js/angularJS/1.8.2.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/homeController.js') }}"></script>
+    
+    <!-- SweetAlert -->
+    <script src="{{ asset('js/sweetAlert.js') }}"></script>
+
+    <!-- Typed -->
+    <script src="{{ asset('js/typed.js') }}"></script>
 </head>
-<body class="">
+<body class="" ng-controller="homeController">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-dark bg-marino shadow-sm">
             <div class="container">
                 <a class="col-5 link-blanco" href="{{ url('/') }}">
                     <div class="row centrado-vertical">
-                        <div class="col-4 color_actual">
+                        <div class="col-md-4 col-sm-5 col-6 color_actual">
                             <svg class="img-fluid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 517.48 517.48"><path  d="M263.32,405.84c-84.84,0-153.87-69-153.87-153.86s69-153.86,153.87-153.86,153.86,69,153.86,153.86-69,153.86-153.86,153.86m0-291.06c-75.66,0-137.21,61.54-137.21,137.2s61.55,137.19,137.21,137.19S400.52,327.63,400.52,252,339,114.78,263.32,114.78"/><path  d="M263.32,361.38a109.41,109.41,0,1,1,0-218.81v16.67A92.74,92.74,0,1,0,356.05,252h16.67a109.52,109.52,0,0,1-109.4,109.41"/><polygon  points="471.15 371.56 454.48 371.56 454.48 147.1 263.32 261.7 72.16 147.1 72.16 371.56 55.49 371.56 55.49 117.68 263.32 242.26 471.15 117.68 471.15 371.56"/></svg>
                         </div>
-                        <div class="col-6 color_actual">
+                        <div class="col-md-6 col-sm-7 col-10 color_actual">
                             <svg class="img-fluid" viewBox="0 0 373.48 83.35001">
                                 <path d="m 19.49,72.4 a 5.45,5.45 0 0 1 2,-2.11 5.69,5.69 0 0 1 2.89,-0.76 5.87,5.87 0 0 1 3.34,0.93 5.24,5.24 0 0 1 2,2.6 h -1.37 a 4,4 0 0 0 -1.52,-1.85 4.44,4.44 0 0 0 -2.47,-0.66 4.55,4.55 0 0 0 -2.3,0.59 4.19,4.19 0 0 0 -1.6,1.73 6.1,6.1 0 0 0 0,5.19 4.13,4.13 0 0 0 1.6,1.71 4.83,4.83 0 0 0 4.77,-0.06 3.89,3.89 0 0 0 1.52,-1.82 h 1.37 a 5.19,5.19 0 0 1 -2,2.58 5.94,5.94 0 0 1 -3.33,0.92 5.69,5.69 0 0 1 -2.89,-0.76 5.56,5.56 0 0 1 -2,-2.1 6.64,6.64 0 0 1 0,-6.13" />
                                 <path d="m 37.59,80.64 a 5.32,5.32 0 0 1 -2.07,-2.11 6.56,6.56 0 0 1 0,-6.13 5.39,5.39 0 0 1 2.07,-2.11 6,6 0 0 1 5.87,0 5.43,5.43 0 0 1 2.06,2.11 6.64,6.64 0 0 1 0,6.13 5.36,5.36 0 0 1 -2.06,2.11 6,6 0 0 1 -5.87,0 m 5.25,-0.85 a 4.23,4.23 0 0 0 1.63,-1.72 5.93,5.93 0 0 0 0,-5.2 4.27,4.27 0 0 0 -1.63,-1.71 4.8,4.8 0 0 0 -4.65,0 4.27,4.27 0 0 0 -1.63,1.71 5.93,5.93 0 0 0 0,5.2 4.23,4.23 0 0 0 1.63,1.72 4.8,4.8 0 0 0 4.65,0" />
@@ -98,6 +108,24 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="/#Productos">
+                                <h5> {{ ('Productos') }} </h5>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link titulo9" href="/#Contacto">
+                                <h5> {{ ('Contacto') }} </h5>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link titulo9" href="/faq">
+                                <h5> {{ ('Preguntas frecuentes') }} </h5>
+                            </a>
+                        </li>
+
+
                         <!-- Authentication Links -->
                         @guest
                            
