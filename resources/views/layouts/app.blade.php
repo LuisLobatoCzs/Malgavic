@@ -120,7 +120,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link titulo9" href="/faq">
+                            <a class="nav-link titulo9" href="/preguntasFrecuentes">
                                 <h5> {{ ('Preguntas frecuentes') }} </h5>
                             </a>
                         </li>
@@ -234,9 +234,9 @@
             <div class="col-xl-6 col-lg-7 col-md-8 col-sm-6 col-5 text-right">
                 <br><br>
                 <div class="row justify-content-right">
-                    <ul class="col-12"> <a class="link-blanco" href="/about">Acerca de nosotros</a> </ul>
-                    <ul class="col-12"> <a class="link-blanco" href="/privacy">Políticas de privacidad</a> </ul>
-                    <ul class="col-12"> <a class="link-blanco" href="/faq">Preguntas frecuentes</a> </ul> 
+                    <ul class="col-12"> <a class="link-blanco" href="/nosotros">Acerca de nosotros</a> </ul>
+                    <ul class="col-12"> <a class="link-blanco" href="/privacidad">Políticas de privacidad</a> </ul>
+                    <ul class="col-12"> <a class="link-blanco" href="/preguntasFrecuentes">Preguntas frecuentes</a> </ul> 
                 </div>
                 <br>
             </div>
@@ -268,7 +268,7 @@
                 
         </div>
         <div class="row bg-celeste justify-content-center">
-            Comercializadora Industrial Mexicana S.A. de C.V.
+            MALGAVIC S.A. de C.V.
         </div>
     </div>
 </body>
