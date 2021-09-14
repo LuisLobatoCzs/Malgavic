@@ -63,7 +63,7 @@
         <h3>1.	¿Dónde se ubican sus oficinas?</h3>
         <br>
         <div class="txt">
-        R: Estaremos encantados de poder atenderle en nuestro punto de venta: Calle Ocoyoacac No.55 Esquina con Av. Tepotzotlan, Colonia Cumbria Cuautitlán Izcalli, Edo. Mex. Cp.54740.
+        R: Estaremos encantados de poder atenderle en nuestro punto de venta: Calle Ocoyoacac No.54 Esquina con Av. Tepotzotlan, Colonia Cumbria Cuautitlán Izcalli, Edo. Mex. Cp.54740.
         </div>
         <br><br><br>
         <h3>2.	¿Pueden enviarme cotizaciones de un producto específico?</h3>

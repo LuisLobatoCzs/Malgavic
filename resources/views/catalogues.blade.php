@@ -182,13 +182,13 @@
                 <li class="cards__item col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
                         <div class="text-center">
-                            <img alt="destacado" src="{{URL::asset('/catlg/img/rueda.png')}}" width="90%">
+                            <img alt="destacado" src="{{URL::asset('/img/cat/bolas.png')}}" width="90%">
                         </div>
                         <div class="card__content">
-                            <div class="card__title">Rodamex</div>
-                            <p class="card__text">Líder nacional en fabricación de ruedas y rodajas de tipo ligero hasta semipesado.</p>
-                            <a target="blank" href="{{URL::asset('/catlg/rodamex.pdf')}}">
-                                <button class="btn btn-dwl col-12">Descargar</button>
+                            <div class="card__title">Bolas de transferencia de alta calidad</div>
+                            <p class="card__text">texto.</p>
+                            <a target="blank" href="{{URL::asset('/cat/bolas.pdf')}}">
+                                <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
                         </div>
                     </div>
@@ -196,13 +196,13 @@
                 <li class="cards__item col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
                         <div class="text-center">
-                            <img alt="destacado" src="{{URL::asset('/catlg/img/roll-master.png')}}" width="90%">
+                            <img alt="destacado" src="{{URL::asset('/img/cat/cascoo.png')}}" width="90%">
                         </div>
                         <div class="card__content">
-                            <div class="card__title">PH Casters</div>
-                            <p class="card__text">Soluciones lean.</p>
-                            <a target="blank" href="{{URL::asset('/catlg/rollmaster.pdf')}}">
-                                <button class="btn btn-dwl col-12">Descargar</button>
+                            <div class="card__title"> Cascoo</div>
+                            <p class="card__text">texto.</p>
+                            <a target="blank" href="{{URL::asset('/cat/cascoo.pdf')}}">
+                                <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
                         </div>
                     </div>
@@ -210,31 +210,31 @@
                 <li class="cards__item col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
                         <div class="text-center">
-                            <img alt="destacado" src="{{URL::asset('/catlg/img/tente.png')}}" width="90%">
+                            <img alt="destacado" src="{{URL::asset('/img/cat/rodamex.png')}}" width="90%">
                         </div>
                         <div class="card__content">
-                            <div class="card__title">TENTE</div>
-                            <p class="card__text">Soluciones prácticas a la movilidad, soluciones rápidas.</p>
-                            <a target="blank" href="{{URL::asset('/catlg/tente.pdf')}}">
-                                <button class="btn btn-dwl col-12">Descargar</button>
+                            <div class="card__title">RODAMEX</div>
+                            <p class="card__text"> TEXTO.</p>
+                            <a target="blank" href="{{URL::asset('/cat/rodamex.pdf')}}">
+                                <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
                         </div>
                     </div>
-                </li>
+                </li>     
                 <li class="cards__item col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
                         <div class="text-center">
-                            <img alt="destacado" src="{{URL::asset('/catlg/img/blickle.png')}}" width="90%">
+                            <img alt="destacado" src="{{URL::asset('/img/cat/blickle.png')}}" width="90%">
                         </div>
                         <div class="card__content">
-                            <div class="card__title">Blickle</div>
-                            <p class="card__text">Ruedas y rodajas de alta especialidad, líderes en carga ultra pesada.</p>
-                            <a target="blank" href="{{URL::asset('/catlg/blickle.pdf')}}">
-                                <button class="btn btn-dwl col-12">Descargar</button>
+                            <div class="card__title">blickle</div>
+                            <p class="card__text"> TEXTO.</p>
+                            <a target="blank" href="{{URL::asset('/cat/blickle.pdf')}}">
+                                <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
                         </div>
                     </div>
-                </li>              
+                </li>            
             </ul>    
         </div>
         <br><br>
@@ -251,7 +251,7 @@
         <br><br>
         <div class="row title2 justify-content-center">
             <br>
-            Forja e Inoxidable.
+            Forja y accesorios para Herrería y Cancelería
             <br><br>
         </div>
         <div class="row">
@@ -259,13 +259,13 @@
                 <li class="cards__item col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
                         <div class="text-center">
-                            <img alt="destacado" src="{{URL::asset('/catlg/img/arteferro.png')}}" width="90%">
+                            <img alt="destacado" src="{{URL::asset('/img/cat/arteferro.png')}}" width="90%">
                         </div>
                         <div class="card__content">
-                            <div class="card__title">Forja</div>
-                            <p class="card__text">Líderes en artículos de hierro forjado, todos los herrajes y chapas que necesitas.</p>
-                            <a target="blank" href="{{URL::asset('/catlg/arteferro_MX.pdf')}}">
-                                <button class="btn btn-dwl col-12">Descargar</button>
+                            <div class="card__title">arteferro</div>
+                            <p class="card__text">texto.</p>
+                            <a target="blank" href="{{URL::asset('/cat/arteferro.pdf')}}">
+                                <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
                         </div>
                     </div>
@@ -273,73 +273,22 @@
                 <li class="cards__item col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
                         <div class="text-center">
-                            <img alt="destacado" src="{{URL::asset('/catlg/img/arteferro.png')}}" width="90%">
+                            <img alt="destacado" src="{{URL::asset('/img/cat/iamdesign.png')}}" width="90%">
                         </div>
                         <div class="card__content">
-                            <div class="card__title">Inox</div>
-                            <p class="card__text">Tu mejor aliado para tu diseño arquitectónico, canceleria inoxidable, galvanizada para acabados interiores y exteriores.</p>
-                            <a target="blank" href="{{URL::asset('/catlg/IAM_MX.pdf')}}">
-                                <button class="btn btn-dwl col-12">Descargar</button>
+                            <div class="card__title"> i am design</div>
+                            <p class="card__text">texto.</p>
+                            <a target="blank" href="{{URL::asset('/cat/iamdesign.pdf')}}">
+                                <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
                         </div>
                     </div>
-                </li>                  
-            </ul>    
-        </div>
-        <br><br>
-    </div>
-    <br><br>
-</div>
+                </li>       
+                
 <div class="col-12 d1">
     <div class="row text-center title2 justify-content-center">
         <hr>
     </div>
-</div>
-<div class="col-12 d1">
-    <div class="container justify-content-center">
-        <br><br>
-        <div class="row title2 justify-content-center">
-            <br>
-            Herramienta.
-            <br><br>
-        </div>
-        <div class="row">
-            <ul class="cards col-12">
-                <div class="row">  <!-- justify-content-center  para centrar tarjetas--> 
-                <li class="cards__item col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                    <div class="card">
-                        <div class="text-center">
-                            <img alt="destacado" src="{{URL::asset('/catlg/img/knova.jpg')}}" width="90%">
-                        </div>
-                        <div class="card__content">
-                            <div class="card__title">KNOVA</div>
-                            <p class="card__text">Herramientas para profesionales y apasionados. </p>
-                            <a target="blank" href="{{URL::asset('/catlg/knova.pdf')}}">
-                                <button class="btn btn-dwl col-12">Descargar</button>
-                            </a>
-                        </div>
-                    </div>
-                </li>
-                <li class="cards__item col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                    <div class="card">
-                        <div class="text-center">
-                            <img alt="destacado" src="{{URL::asset('/catlg/img/mik.jpg')}}" width="90%">
-                        </div>
-                        <div class="card__content">
-                            <div class="card__title">Mikel's</div>
-                            <p class="card__text">Herramienta idónea para el área de mantenimiento y ensamble.  </p>
-                            <a target="blank" href="{{URL::asset('/catlg/mikels.pdf')}}">
-                                <button class="btn btn-dwl col-12">Descargar</button>
-                            </a>
-                        </div>
-                    </div>
-                </li>
-                </div>                
-            </ul>    
-        </div>
-        <br><br>
-    </div>
-    <br><br>
 </div>
 <div class="col-12 d1">
     <div class="container justify-content-center">
@@ -354,13 +303,13 @@
                 <li class="cards__item col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
                         <div class="text-center">
-                            <img alt="destacado" src="{{URL::asset('/catlg/img/Herrex.png')}}" width="90%">
+                            <img alt="destacado" src="{{URL::asset('/img/cat/herrex.png')}}" width="90%">
                         </div>
                         <div class="card__content">
                             <div class="card__title">Herrex</div>
                             <p class="card__text"> </p>
-                            <a target="blank" href="{{URL::asset('/catlg/Herrex.pdf')}}">
-                                <button class="btn btn-dwl col-12">Descargar</button>
+                            <a target="blank" href="{{URL::asset('/cat/herrex.pdf')}}">
+                                <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
                         </div>
                     </div>
@@ -381,7 +330,7 @@
         <br><br>
         <div class="row title2 justify-content-center">
             <br>
-            Productos sanitizantes.
+            Equipo de seguridad.
             <br><br>
         </div>
         <div class="row">
@@ -389,22 +338,23 @@
                 <li class="cards__item col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
                         <div class="text-center">
-                            <img alt="destacado" src="{{URL::asset('/catlg/img/BioKep.png')}}" width="90%">
+                            <img alt="destacado" src="{{URL::asset('/img/cat/riverline.jpg')}}" width="90%">
                         </div>
                         <div class="card__content">
-                            <div class="card__title">BioKep</div>
-                            <p class="card__text">Sanitizantes. </p>
-                            <a target="blank" href="{{URL::asset('/catlg/BioKep.pdf')}}">
-                                <button class="btn btn-dwl col-12">Descargar</button>
+                            <div class="card__title">Riverline</div>
+                            <p class="card__text"> </p>
+                            <a target="blank" href="{{URL::asset('/cat/riverline.pdf')}}">
+                                <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
                         </div>
                     </div>
                 </li>
             </ul>    
         </div>
-        <br><br><br>
+        <br><br>
     </div>
     <br><br>
 </div>
+
 @endsection
 

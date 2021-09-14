@@ -22,7 +22,7 @@ Route::get('/preguntasFrecuentes', function () {
     return view('faq');
 });
 
-Route::get('/politicasDePrivacidad', function () {
+Route::get('/privacidad', function () {
     return view('privacy');
 });
 
