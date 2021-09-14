@@ -44,38 +44,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="img-fluid" src="{{URL::asset('/img/banner/b2.png')}}" alt="Second slide" >
-                    <!-- Cuadro de texto flotante-->
-                    <div class="col-md-8 col-sm-10 col-11 blanco sobreponer centrado-absoluto centrar centrado-vertical">
-                        <div style="font-size: calc(1em + 3vw)">
-                            <b>  </b>
-                            
-                            <br><br><br><br>
-                            <a href="/catalogos">
-                                <button class="btn btn-rojo btn-ovalado titulo9"> 
-                                    &nbsp; <i class="fas fa-book"></i> Ver catálogos &nbsp; 
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="img-fluid" src="{{URL::asset('/img/banner/b1.png')}}" alt="Third slide" >
-                    <!-- Cuadro de texto flotante-->
-                    <div class="col-md-8 col-sm-10 col-11 blanco sobreponer centrado-absoluto centrar centrado-vertical">
-                        <div style="font-size: calc(1em + 3vw)">
-                            <b>  </b>
-                            
-                            <br><br><br><br>
-                            <a href="/catalogos">
-                                <button class="btn btn-rojo btn-ovalado titulo9"> 
-                                    &nbsp; <i class="fas fa-book"></i> Ver catálogos &nbsp; 
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
             </div>
             <a class="carousel-control-prev sobreponer" href="#carousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -211,48 +179,47 @@
         <div class="row pt-5 pb-5 centrado-vertical">
             <!-- Formulario -->
             <div class="col-md-7 col-11 text-center pb-5">
-                <form action="/contactar" method="POST">
-                    {{ csrf_field() }}
+                <form>
                     <fieldset>
                         <div class="form-group">
                             <div class="row">
-                                <input type="text" class="form-control col-8" name="fecha" hidden required value="<?php echo date("Y-m-d H:i:s"); ?>">
+                                <input type="text" class="form-control col-8" name="fecha" ng-model="$scope.fecha" hidden required value="<?php echo date("Y-m-d H:i:s"); ?>">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
                                 <label for="nombre" class="col-4 control-label title3">Nombre:</label>
-                                <input type="text" class="form-control col-8" name="nombre" placeholder="Nombre completo" required value="">
+                                <input type="text" class="form-control col-8" name="nombre" ng-model="$scope.nombre" placeholder="Nombre completo" required value="">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
                                 <label for="telefono" class="col-4 control-label title3">Teléfono:</label>
-                                <input type="number" class="form-control col-8" name="telefono" placeholder="Número a 10 dígitos" pattern="[0-9]{10}" required value="">
+                                <input type="number" class="form-control col-8" name="telefono" ng-model="$scope.telefono" placeholder="Número a 10 dígitos" pattern="[0-9]{10}" required value="">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
                                 <label for="correo" class="col-4 control-label title3">E-Mail:</label>
-                                <input type="email" class="form-control col-8" name="correo" placeholder="Ej. ejemplo@correo.com" required value="">
+                                <input type="email" class="form-control col-8" name="correo" ng-model="$scope.correo" placeholder="ejemplo@correo.com" required value="">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
                                 <label for="cp" class="col-4 control-label title3">Código postal:</label>
-                                <input type="number" class="form-control col-8" name="cp" placeholder="A 5 dígitos" required value="">
+                                <input type="number" class="form-control col-8" name="cp" ng-model="$scope.cp" placeholder="A 5 dígitos" required value="">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
                                 <label for="mensaje" class="col-4 control-label title3">Mensaje:</label>
-                                <textarea class="form-control col-8" rows="6" name="mensaje" required placeholder="Dejanos tu mensaje aquí"></textarea>
+                                <textarea class="form-control col-8" rows="6" name="mensaje" ng-model="$scope.mensaje" required placeholder="Dejanos tu mensaje aquí"></textarea>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-4"></div>
-                                <button type="submit" class="btn btn-rojo btn-ovalado col-md-4 col-sm-6 col-8">Enviar</button>
+                                <button type="submit" ng-click="contactar()" class="btn btn-rojo btn-ovalado col-md-4 col-sm-6 col-8">Enviar</button>
                             </div>
                         </div>
                     </fieldset>

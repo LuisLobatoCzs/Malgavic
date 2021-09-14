@@ -21,4 +21,23 @@ var app = angular.module("home", [])
             contentType: 'html', // 'html' o 'null' para texto sin formato
         });
     }
+
+
+    $scope.nombre="";
+    $scope.contactar = function () {
+
+        console.log($scope.nombre);
+        $http({
+            method: 'POST',
+            url: '/contactar',
+            params: {
+                fecha: $scope.fecha,
+                nombre: $scope.nombre,
+                telefono: $scope.telefono,
+                correo: $scope.correo,
+                mensaje: $scope.mensaje,
+                cp: $scope.cp
+            }
+        });
+    };
 })

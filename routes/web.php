@@ -34,6 +34,7 @@ Route::get('/nosotros', function () {
     return view('about');
 });
 
+Route::post('/contactar', 'FormController@Contacto');
 
 Auth::routes();
 
