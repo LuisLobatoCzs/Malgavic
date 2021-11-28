@@ -186,7 +186,9 @@
                         </div>
                         <div class="card__content">
                             <div class="card__title">Bolas de transferencia de alta calidad</div>
-                            <p class="card__text">texto.</p>
+                            <p class="card__text">Bolas de Transferencia para la industria en general, brindado soluciones para el manejo de
+                            materiales; distinguidas por su alta capacidad de carga y vida útil, fabricadas con materiales de
+                            primera calidad.</p>
                             <a target="blank" href="{{URL::asset('/cat/bolas.pdf')}}">
                                 <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
@@ -200,7 +202,9 @@
                         </div>
                         <div class="card__content">
                             <div class="card__title"> Cascoo</div>
-                            <p class="card__text">texto.</p>
+                            <p class="card__text">Ruedas y rodajas para la Industria ligera y pesada. Cuenta con productos especializados para el
+                                            manejo de materiales y fabricados con los más altos estándares de calidad, ideales para tu manejo
+                                            de materiales.</p>
                             <a target="blank" href="{{URL::asset('/cat/cascoo.pdf')}}">
                                 <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
@@ -214,7 +218,9 @@
                         </div>
                         <div class="card__content">
                             <div class="card__title">RODAMEX</div>
-                            <p class="card__text"> TEXTO.</p>
+                            <p class="card__text"> Ruedas y rodajas para la Industria ligera, pesada y super pesada. Cuenta con productos
+                                especializados y fabricados con los más altos estándares de calidad, ideales para el manejo de
+                                materiales</p>
                             <a target="blank" href="{{URL::asset('/cat/rodamex.pdf')}}">
                                 <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
@@ -262,8 +268,9 @@
                             <img alt="destacado" src="{{URL::asset('/img/cat/arteferro.png')}}" width="90%">
                         </div>
                         <div class="card__content">
-                            <div class="card__title">arteferro</div>
-                            <p class="card__text">texto.</p>
+                            <div class="card__title">Arteferro</div>
+                            <p class="card__text">Productos decorativos fabricados en hierro con la más alta calidad, forja y acero inoxidable con
+                                sistemas de instalación sencilla, ideales para tus proyectos estructurales y arquitectónicos..</p>
                             <a target="blank" href="{{URL::asset('/cat/arteferro.pdf')}}">
                                 <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
@@ -277,7 +284,9 @@
                         </div>
                         <div class="card__content">
                             <div class="card__title"> i am design</div>
-                            <p class="card__text">texto.</p>
+                            <p class="card__text">Productos de acero inoxidable y hierro galvanizado, tales como soportes, montantes para barandilla,
+                            terminales, soportes de vidrio, accesorios y diseños únicos, con sistemas de instalación sencilla y
+                            flexibles, ideales para tus proyectos estructurales y arquitectónicos..</p>
                             <a target="blank" href="{{URL::asset('/cat/iamdesign.pdf')}}">
                                 <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
@@ -307,7 +316,8 @@
                         </div>
                         <div class="card__content">
                             <div class="card__title">Herrex</div>
-                            <p class="card__text"> </p>
+                            <p class="card__text"> Herrajes y Sistemas de Rodamiento y Movilidad, tales como Bisagras, Herrajes Europeos, Pasadores,
+                            Sistemas Cantilever, Sistemas Euroriel, Sistema Rodamiento.</p>
                             <a target="blank" href="{{URL::asset('/cat/herrex.pdf')}}">
                                 <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
@@ -342,7 +352,8 @@
                         </div>
                         <div class="card__content">
                             <div class="card__title">Riverline</div>
-                            <p class="card__text"> </p>
+                            <p class="card__text"> Herrajes y Sistemas de Rodamiento y Movilidad, tales como Bisagras, Herrajes Europeos, Pasadores,
+                            Sistemas Cantilever, Sistemas Euroriel, Sistema Rodamiento.</p>
                             <a target="blank" href="{{URL::asset('/cat/riverline.pdf')}}">
                                 <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
