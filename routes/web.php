@@ -37,5 +37,8 @@ Route::get('/nosotros', function () {
 Route::post('/contactar', 'FormController@Contacto');
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@Messages')->name('home');
+Route::get('/message_detail', 'HomeController@Detail')->name('detail');
+Route::get('/deleted', 'HomeController@Deleted')->name('deleted');
+Route::get('/attended', 'HomeController@Attended')->name('atended');
