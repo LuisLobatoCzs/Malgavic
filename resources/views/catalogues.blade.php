@@ -202,9 +202,8 @@
                         </div>
                         <div class="card__content">
                             <div class="card__title"> Cascoo</div>
-                            <p class="card__text">Ruedas y rodajas para la Industria ligera y pesada. Cuenta con productos especializados para el
-                                            manejo de materiales y fabricados con los más altos estándares de calidad, ideales para tu manejo
-                                            de materiales.</p>
+                            <p class="card__text">Ruedas y rodajas para la Industria ligera y pesada. Cuenta con productos especializados y
+                                fabricados con los más altos estándares de calidad, ideales para tu manejo de materiales.</p>
                             <a target="blank" href="{{URL::asset('/cat/cascoo.pdf')}}">
                                 <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
@@ -218,9 +217,8 @@
                         </div>
                         <div class="card__content">
                             <div class="card__title">RODAMEX</div>
-                            <p class="card__text"> Ruedas y rodajas para la Industria ligera, pesada y super pesada. Cuenta con productos
-                                especializados y fabricados con los más altos estándares de calidad, ideales para el manejo de
-                                materiales</p>
+                            <p class="card__text"> Ruedas y rodajas para la Industria ligera y pesada. Cuenta con productos especializados y
+                                fabricados con los más altos estándares de calidad, ideales para tu manejo de materiales.</p>
                             <a target="blank" href="{{URL::asset('/cat/rodamex.pdf')}}">
                                 <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
@@ -234,7 +232,9 @@
                         </div>
                         <div class="card__content">
                             <div class="card__title">blickle</div>
-                            <p class="card__text"> TEXTO.</p>
+                            <p class="card__text">Ruedas y rodajas para la Industria ligera, pesada y súper pesada. Cuenta con productos
+                                especializados, fabricados con los más altos estándares de calidad y tecnología alemana, ideales
+                                para el manejo de materiales.</p>
                             <a target="blank" href="{{URL::asset('/cat/blickle.pdf')}}">
                                 <button class="btn btn-rojo col-12">Descargar</button>
                             </a>
