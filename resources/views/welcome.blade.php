@@ -176,7 +176,7 @@
                 Contáctanos. 
             </span>
         </div>
-        <div class="row pt-5 pb-5 centrado-vertical">
+        <div class="row pt-5 pb-0 centrado-vertical">
             <!-- Formulario -->
             <div class="col-md-7 col-11 text-center pb-5">
                 <form>
@@ -228,6 +228,30 @@
             <!-- Imagen -->
             <div class="col-5 centrar not_priority">
                 <object class="img-fluid" data="{{ asset('img/undraw_message_sent_1030.svg') }}" type="image/svg+xml"></object> 
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-index col-12 pb-5">
+    <div class="container">
+        <div class="row pb-3">
+            <span style="font-size: calc(1em + 2vw)">
+                Visita nuestras oficinas.
+            </span>
+        </div>
+        <div class="row justify-content-center">
+            <!-- Imagen -->
+            <div class="col-5 centrar not_priority">
+                <object class="img-fluid" data="{{ asset('img/undraw_destination_re_sr74.svg') }}" type="image/svg+xml"></object> 
+            </div>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="500" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=19.651310496101978,%20-99.21618556329621&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a>
+                    <br>
+                    <style>.mapouter{position:relative;text-align:right;height:300px;width:500px;}</style>
+                    <style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:500px;}</style>
+                </div>
             </div>
         </div>
     </div>
