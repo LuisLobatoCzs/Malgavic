@@ -53,7 +53,7 @@
             <div class="container">
                 <a class="col-5 link-blanco" href="{{ url('/') }}">
                     <div class="row centrado-vertical">
-                        <div class="col-md-4 col-sm-5 col-6 color_actual">
+                        <div class="col-md-3 col-sm-5 col-6 color_actual">
                             <svg class="img-fluid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 517.48 517.48"><path  d="M263.32,405.84c-84.84,0-153.87-69-153.87-153.86s69-153.86,153.87-153.86,153.86,69,153.86,153.86-69,153.86-153.86,153.86m0-291.06c-75.66,0-137.21,61.54-137.21,137.2s61.55,137.19,137.21,137.19S400.52,327.63,400.52,252,339,114.78,263.32,114.78"/><path  d="M263.32,361.38a109.41,109.41,0,1,1,0-218.81v16.67A92.74,92.74,0,1,0,356.05,252h16.67a109.52,109.52,0,0,1-109.4,109.41"/><polygon  points="471.15 371.56 454.48 371.56 454.48 147.1 263.32 261.7 72.16 147.1 72.16 371.56 55.49 371.56 55.49 117.68 263.32 242.26 471.15 117.68 471.15 371.56"/></svg>
                         </div>
                         <div class="col-md-6 col-sm-7 col-10 color_actual">
@@ -120,6 +120,11 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link titulo9" href="/#Ubicación">
+                                <h5> {{ ('Oficinas') }} </h5>
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link titulo9" href="/preguntasFrecuentes">
                                 <h5> {{ ('Preguntas frecuentes') }} </h5>
                             </a>
@@ -161,7 +166,7 @@
     <!-- Footer -->
     <div class="col-12 bg-footer">
         <div class="row">
-            <div class="col-xl-6 col-lg-5 col-md-4 col-sm-6 col-7 text-center">
+            <div class="col-xl-6 col-lg-5 col-md-4 col-sm-6 col-8 text-center">
                 <div class="container">
                     <br>
                     <!-- Logo -->
@@ -231,7 +236,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6 col-lg-7 col-md-8 col-sm-6 col-5 text-right">
+            <div class="col-xl-6 col-lg-7 col-md-8 col-sm-6 col-4 text-right">
                 <br><br>
                 <div class="row justify-content-right">
                     <ul class="col-12"> <a class="link-blanco" href="/nosotros">Acerca de nosotros</a> </ul>
@@ -241,34 +246,39 @@
                 <br>
             </div>
         </div>
-        <div class="row justify-content-center pt-3">
+        <div class="row a-la-derecha pt-3 pr-3 mr-3">
             <?php
                 if(env('MALGAVIC_FACEBOOK') != ""){
                     echo '
-                        <a class="burbuja facebook mr-3" target="blank" href="{{ env("MALGAVIC_FACEBOOK") }}">
+                        <a class="burbuja facebook mr-3" target="blank" href="'. env("MALGAVIC_FACEBOOK") .'">
                             <i class="fab fa-facebook"></i>
                         </a>
                     ';
                 }
                 if(env('MALGAVIC_INSTAGRAM') != ""){
                     echo '
-                        <a class="burbuja instagram mr-3" target="blank" href="{{ env("MALGAVIC_INSTAGRAM") }}">
+                        <a class="burbuja instagram mr-3" target="blank" href="'. env("MALGAVIC_INSTAGRAM") .'">
                             <i class="fab fa-instagram"></i>
                         </a>
                     ';
                 }
                 if(env('MALGAVIC_LINKEDIN') != ""){
                     echo '
-                        <a class="burbuja linkedin mr-5" target="blank" href="{{ env("MALGAVIC_LINKEDIN") }}">
+                        <a class="burbuja linkedin mr-5" target="blank" href="'. env("MALGAVIC_LINKEDIN") .'">
                             <i class="fab fa-linkedin"></i>
                         </a>
+                    ';
+                }
+                else{
+                    echo '
+                        <div class="mr-4"> </div>
                     ';
                 }
             ?>
                 
         </div>
-        <div class="row bg-celeste justify-content-center">
-            MALGAVIC S.A. de C.V.
+        <div class="row bg-celeste justify-content-center altura">
+            MALGAVIC Comercializadora Industrial
         </div>
     </div>
 </body>

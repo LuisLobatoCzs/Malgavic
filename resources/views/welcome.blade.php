@@ -145,30 +145,37 @@
     <br><br>
 </div>
 
-<div class="row bg-celeste-rgba" >
-    <div class="col-12">
+<div class="col-12 bg-celeste-rgba" >
+    <div class="row">
         <img src="{{URL::asset('/img/waveUP.svg')}}" width="100%">
     </div>
 </div>
-<div class="row bg-celeste-rgba justify-content-center" ng-init="typewriter()">
-     <!-- Cuadro de texto flotante-->
-     <div class="col-md-8 col-sm-10 col-11 blanco sobreponer centrar centrado-total">
-        <div style="font-size: calc(1em + 2.5vw); margin:auto;">
-            El inventario más completo para todo tipo de <b> <span class="typed"></span> </b>
-            <br>
-            <a href="/catalogos">
-                <button class="btn btn-rojo btn-ovalado titulo8"> 
-                    &nbsp; <i class="fas fa-book"></i> Ver catálogos &nbsp; 
-                </button>
-            </a>
+
+<div class="col-12">
+    <div class="row bg-celeste-rgba justify-content-center" ng-init="typewriter()">
+        <!-- Cuadro de texto flotante-->
+        <div class="col-md-8 col-sm-10 col-11 blanco sobreponer centrar centrado-total">
+            <div class="" style="font-size: calc(1em + 2.1vw); margin:auto;">
+                El inventario más completo para todo tipo de <b> <span class="typed"></span> </b>
+                <br>
+                <a href="/catalogos">
+                    <button class="btn btn-rojo btn-ovalado titulo8"> 
+                        &nbsp; <i class="fas fa-book"></i> Ver catálogos &nbsp; 
+                    </button>
+                </a>
+            </div>
         </div>
     </div>
-    <div class="col-12">
+</div>
+
+<div class="col-12 bg-celeste-rgba" >
+    <div class="row">
         <img src="{{URL::asset('/img/waveDOWN.svg')}}" width="100%">
     </div>
 </div>
 
-<div class="col-12 bg-index" id="Contacto">     <!--Contacto-->
+<!--Contacto-->
+<div class="col-12 bg-index" id="Contacto">
     <div class="container">
         <div class="row">
             <span style="font-size: calc(1em + 2vw)">
@@ -225,6 +232,7 @@
                     </fieldset>
                 </form>     
             </div>
+
             <!-- Imagen -->
             <div class="col-5 centrar not_priority">
                 <object class="img-fluid" data="{{ asset('img/undraw_message_sent_1030.svg') }}" type="image/svg+xml"></object> 
@@ -232,21 +240,29 @@
         </div>
     </div>
 </div>
-<div class="bg-index col-12 pb-5">
-    <div class="container">
+
+<div class="col-12 bg-celeste" >
+    <div class="row">
+        <img src="{{URL::asset('/img/waveUP.svg')}}" width="100%">
+    </div>
+</div>
+
+<!-- Ubicación -->
+<div class="bg-celeste col-12 pb-5 blanco">
+    <div class="container" id="Ubicación">
         <div class="row pb-3">
             <span style="font-size: calc(1em + 2vw)">
                 Visita nuestras oficinas.
             </span>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center centrado-vertical">
             <!-- Imagen -->
             <div class="col-5 centrar not_priority">
-                <object class="img-fluid" data="{{ asset('img/undraw_destination_re_sr74.svg') }}" type="image/svg+xml"></object> 
+                <object loading="lazy" class="img-fluid" data="{{ asset('img/undraw_right_direction_tge8.svg') }}" type="image/svg+xml"></object> 
             </div>
-            <div class="mapouter">
-                <div class="gmap_canvas">
-                    <iframe width="500" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=19.651310496101978,%20-99.21618556329621&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <div class="col-md-7 col-12 mapouter">
+                <div class="gmap_canvas img-fluid">
+                    <iframe loading="lazy" class="redondeado_lite" width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=19.651310496101978,%20-99.21618556329621&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                     <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a>
                     <br>
                     <style>.mapouter{position:relative;text-align:right;height:300px;width:500px;}</style>
@@ -256,8 +272,12 @@
         </div>
     </div>
 </div>
+
+
+
+<!-- GAP -->
 <div class="bg-gris-rgba">
-    <br><br><br><br><br>
+    
 </div>
 
 @endsection

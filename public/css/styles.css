@@ -37,6 +37,10 @@ body{
 }
 
 
+.altura{
+    min-height: 3.3vh;
+}
+
 .centrado-vertical{
     border: none;
     align-items: center;
@@ -113,7 +117,7 @@ body{
 
 .blackout::before{
     content: '';
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,0.5);
     z-index: 3;
     display: block;
     width: 100%;
@@ -216,6 +220,9 @@ body{
     border: solid;
     color: #7e8384;
 }
+.redondeado_lite{
+    border-radius: 3vh;
+}
 
 .zoom {
     transition: transform .3s;
@@ -252,7 +259,7 @@ body{
 }
 .whatsapp{
     color: #00e676;
-    right: 5vh; 
+    right: 1vh; 
     bottom: 3.3vh;
 }
 .whatsapp:hover{
