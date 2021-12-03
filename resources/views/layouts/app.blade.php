@@ -224,7 +224,7 @@
                         <div class="">
                             <p>CONTÁCTANOS</p>
                             <p class="a-la-izquierda">
-                                <i class="fas fa-phone"></i> &ensp; {{env('MALGAVIC_OFFICE_PHONE')}}
+                                <i class="fas fa-phone"></i> &ensp; +{{env('MALGAVIC_PHONE_COUNTRY')}} {{env('MALGAVIC_OFFICE_PHONE')}}
                                 <br>
                                 <a class="link-blanco" href="mailto:{{env('MALGAVIC_MAIL')}}?Subject=Dudas%20generales">
                                     <i class="far fa-envelope"></i> &ensp; {{env('MALGAVIC_MAIL')}}
@@ -277,7 +277,7 @@
             ?>
                 
         </div>
-        <div class="row bg-celeste justify-content-center altura">
+        <div class="row bg-celeste justify-content-center altura-etiqueta">
             MALGAVIC Comercializadora Industrial
         </div>
     </div>
