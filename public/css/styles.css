@@ -5,7 +5,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-@media (min-width:768px){
+@media (min-width:550px){
+    .titulo9{
+        font-size: calc(.2em + 1vw);
+    }
     .menor{
             display:none;
     }
@@ -13,7 +16,10 @@ body{
             display:block; 
     }
 }
-@media (max-width:768px){
+@media (max-width:550px){
+    .titulo9{
+        font-size: calc(.5em + 1vw);
+    }
     .menor{
             display:block;
     }
@@ -184,9 +190,6 @@ body{
     color: #00adcb;
 }
 
-.titulo9{
-    font-size: calc(.2em + 1vw);
-}
 .titulo8{
     font-size: calc(.5em + 1vw);
 }

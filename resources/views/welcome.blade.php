@@ -29,12 +29,12 @@
                 
                 <!-- Diapositivas-->
                 <div class="carousel-item active">
-                    <img class="img-fluid" src="{{URL::asset('/img/banner/b3.jpg')}}" alt="First slide">
+                    <img class="mayor img-fluid" src="{{URL::asset('/img/banner/b3.jpg')}}" alt="First slide">
+                    <img class="menor img-fluid" src="{{URL::asset('/img/banner/bm3.jpg')}}" alt="First slide">
                     <!-- Cuadro de texto flotante-->
                     <div class="col-md-8 col-sm-10 col-11 blanco sobreponer centrado-absoluto centrar centrado-vertical">
                         <div style="font-size: calc(1em + 3vw)">
                             <b> Añade estilo y seguridad a tus proyectos con los mejores diseños. </b>
-                            
                             <br><br>
                             <a href="/catalogos">
                                 <button class="btn btn-rojo btn-ovalado titulo9"> 
@@ -44,6 +44,41 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="carousel-item">
+                    <img class="mayor img-fluid" src="{{URL::asset('/img/banner/b5.jpg')}}" alt="First slide">
+                    <img class="menor img-fluid" src="{{URL::asset('/img/banner/bm5.jpg')}}" alt="First slide">
+                    <!-- Cuadro de texto flotante-->
+                    <div class="col-md-8 col-sm-10 col-11 blanco sobreponer centrado-absoluto centrar centrado-vertical">
+                        <div style="font-size: calc(1em + 3vw)">
+                            <b> La herramienta correcta en la mano correcta. </b>
+                            <br><br>
+                            <a href="/catalogos">
+                                <button class="btn btn-rojo btn-ovalado titulo9"> 
+                                    &nbsp; <i class="fas fa-book"></i> Ver catálogos &nbsp; 
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="mayor img-fluid" src="{{URL::asset('/img/banner/b2.jpg')}}" alt="First slide">
+                    <img class="menor img-fluid" src="{{URL::asset('/img/banner/bm2.jpg')}}" alt="First slide">
+                    <!-- Cuadro de texto flotante-->
+                    <div class="col-md-8 col-sm-10 col-11 blanco sobreponer centrado-absoluto centrar centrado-vertical">
+                        <div style="font-size: calc(1em + 3vw)">
+                            <b> Pon en movimiento tu empresa, ¡Ponle ruedas! </b>
+                            <br><br>
+                            <a href="/catalogos">
+                                <button class="btn btn-rojo btn-ovalado titulo9"> 
+                                    &nbsp; <i class="fas fa-book"></i> Ver catálogos &nbsp; 
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <a class="carousel-control-prev sobreponer" href="#carousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
