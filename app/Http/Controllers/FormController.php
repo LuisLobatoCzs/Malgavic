@@ -24,7 +24,7 @@ class FormController extends Controller
             'telefono' => $request->telefono,
             'correo' => $request->correo,
             'mensaje' => $request->mensaje,
-            'fecha' => $request->fecha,
+            'fecha' => date("Y-m-d H:i:s"),
             'cp' => $request->cp
         ]); 
     }

@@ -23,21 +23,45 @@ var app = angular.module("home", [])
     }
 
 
-    $scope.nombre="";
+    //fecha = new Date().toLocaleString('en-US', { timeZone: 'America/Mexico_City' });
+    //$scope.fecha=fecha.toISOString().replace('T',' ').split('.')[0];
+    
     $scope.contactar = function () {
+        if($scope.nombre != "" && $scope.telefono != "" && $scope.correo != "" && $scope.mensaje != "" && $scope.cp != ""){
+            $http({
+                method: 'POST',
+                url: '/contactar',
+                params: {
+                    //fecha: $scope.fecha,
+                    nombre: $scope.nombre,
+                    telefono: $scope.telefono,
+                    correo: $scope.correo,
+                    mensaje: $scope.mensaje,
+                    cp: $scope.cp,
+                }
+            })
+            .then(function() {
+                Swal.fire(
+                    'Mensaje enviado!',
+                    'Pronto nos pondremos en contacto contigo.',
+                    'success'
+                );
 
-        console.log($scope.nombre);
-        $http({
-            method: 'POST',
-            url: '/contactar',
-            params: {
-                fecha: $scope.fecha,
-                nombre: $scope.nombre,
-                telefono: $scope.telefono,
-                correo: $scope.correo,
-                mensaje: $scope.mensaje,
-                cp: $scope.cp
             }
-        });
+            ,function() { 
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Lo sentimos algo salió mal',
+                });
+            });
+
+            $scope.nombre = "";
+            $scope.telefono = "";
+            $scope.correo = "";
+            $scope.mensaje = "";
+            $scope.cp = "";
+        }
+        
     };
 })

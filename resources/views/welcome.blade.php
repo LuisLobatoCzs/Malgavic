@@ -223,39 +223,41 @@
             <div class="col-md-7 col-11 text-center pb-5">
                 <form>
                     <fieldset>
+                        <!--
                         <div class="form-group">
                             <div class="row">
-                                <input type="text" class="form-control col-8" name="fecha" ng-model="$scope.fecha" hidden required value="<?php echo date("Y-m-d H:i:s"); ?>">
+                                <input type="text" class="form-control col-8" name="fecha" ng-model="fecha" hidden required value="<?php echo date("Y-m-d H:i:s"); ?>">
                             </div>
                         </div>
+                        -->
                         <div class="form-group">
                             <div class="row">
                                 <label for="nombre" class="col-4 control-label title3">Nombre:</label>
-                                <input type="text" class="form-control col-8" name="nombre" ng-model="$scope.nombre" placeholder="Nombre completo" required value="">
+                                <input type="text" class="form-control col-8" name="nombre" ng-model="nombre" placeholder="Nombre completo" required value="">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
                                 <label for="telefono" class="col-4 control-label title3">Teléfono:</label>
-                                <input type="number" class="form-control col-8" name="telefono" ng-model="$scope.telefono" placeholder="Número a 10 dígitos" pattern="[0-9]{10}" required value="">
+                                <input type="number" class="form-control col-8" name="telefono" ng-model="telefono" placeholder="Número a 10 dígitos" pattern="^[0-9]+" min="0000000001"  minlength="10" required value="">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
                                 <label for="correo" class="col-4 control-label title3">E-Mail:</label>
-                                <input type="email" class="form-control col-8" name="correo" ng-model="$scope.correo" placeholder="ejemplo@correo.com" required value="">
+                                <input type="email" class="form-control col-8" name="correo" ng-model="correo" placeholder="ejemplo@correo.com" required value="">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
                                 <label for="cp" class="col-4 control-label title3">Código postal:</label>
-                                <input type="number" class="form-control col-8" name="cp" ng-model="$scope.cp" placeholder="A 5 dígitos" required value="">
+                                <input type="number" class="form-control col-8" name="cp" ng-model="cp" placeholder="A 5 dígitos" pattern="^[0-9]+" min="1" required value="">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
                                 <label for="mensaje" class="col-4 control-label title3">Mensaje:</label>
-                                <textarea class="form-control col-8" rows="6" name="mensaje" ng-model="$scope.mensaje" required placeholder="Dejanos tu mensaje aquí"></textarea>
+                                <textarea class="form-control col-8" rows="6" name="mensaje" ng-model="mensaje" required placeholder="Dejanos tu mensaje aquí"></textarea>
                             </div>
                         </div>
                         <div class="form-group">
@@ -295,14 +297,8 @@
             <div class="col-5 centrar not_priority">
                 <object loading="lazy" class="img-fluid" data="{{ asset('img/undraw_right_direction_tge8.svg') }}" type="image/svg+xml"></object> 
             </div>
-            <div class="col-md-7 col-12 mapouter">
-                <div class="gmap_canvas img-fluid">
-                    <iframe loading="lazy" class="redondeado_lite" width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=19.651310496101978,%20-99.21618556329621&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                    <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a>
-                    <br>
-                    <style>.mapouter{position:relative;text-align:right;height:300px;width:500px;}</style>
-                    <style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:500px;}</style>
-                </div>
+            <div class="col-md-7 col-12">
+                <iframe class="redondeado_lite" width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=19.651310496101978,%20-99.21618556329621&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
         </div>
     </div>
