@@ -160,6 +160,13 @@
 @section('content')
 
 <div class="col-12 d1">
+    
+    <div class="row">
+        <a class="sobreponer2 burbuja flotante whatsapp" target="blank" href="https://api.whatsapp.com/send?phone={{env('MALGAVIC_PHONE_COUNTRY')}}{{env('MALGAVIC_PHONE')}}&text=Hola%2C%20me%20gustaría%20solicitar%20información">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    
     <div class="row text-center title2 justify-content-center">
         <br>
         Consulta nuestros catálogos.
